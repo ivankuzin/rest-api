@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Car",
+  "description": "Car data in database",
+  "type": "object",
+  "properties": {
+    "id": {
+      "description": "The unique identifier for a dealer",
+      "type": "integer"
+    },
+    "brand": {
+      "description": "Car`s brand",
+      "type": "string"
+    },
+    "model": {
+      "description": "Certain model of some brand",
+      "type": "string"
+    },
+    "vin": {
+      "description": "Unique vin number of the car",
+      "type": "string"
+    },
+    "dealer_id": {
+      "description": "Dealer`s id that owned currrent car",
+      "type": "string"
+    }
+  },
+  "required": [ "id", "brand", "model", "vin", "dealer_id" ]
+}

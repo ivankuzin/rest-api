@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Dealer",
+  "description": "Dealer data in database",
+  "type": "object",
+  "properties": {
+    "id": {
+      "description": "The unique identifier for a dealer",
+      "type": "integer"
+    },
+    "name": {
+      "description": "Company name of a dealer",
+      "type": "string"
+    },
+    "city": {
+      "description": "Dealer`s dislocation",
+      "type": "string"
+    }
+  },
+  "required": [ "id", "name" ]
+}
