@@ -130,11 +130,11 @@ def update_car(car_id):
         setattr(item, key, value)
     session.commit()
     serialized = {
-        'id': car.id,
-        'brand': car.brand,
-        'model': car.model,
-        'vin' : car.vin,
-        'dealer_id' : car.dealer_id
+        'id': item.id,
+        'brand': item.brand,
+        'model': item.model,
+        'vin' : item.vin,
+        'dealer_id' : item.dealer_id
     }
     return serialized
 
