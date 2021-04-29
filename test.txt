@@ -1,2 +1,1 @@
-Some message
-Some data
+data
